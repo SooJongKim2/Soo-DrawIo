@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Whale/3.28.266.14 Safari/537.36" version="25.0.3">
+  <diagram name="페이지-1" id="9wE5mM1fkd3UUWHazF7L">
+    <mxGraphModel dx="1112" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-8" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="412" width="440" height="308" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XP3TcfL1CMbdTPyha4J-8" source="0XP3TcfL1CMbdTPyha4J-1" target="0XP3TcfL1CMbdTPyha4J-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-15" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;3. 보안로그 수집 및 악성행위 탐지&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XP3TcfL1CMbdTPyha4J-10">
+          <mxGeometry x="-0.393" y="-4" relative="1" as="geometry">
+            <mxPoint x="-11" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-1" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-8">
+          <mxGeometry x="170" y="40" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-2" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-1">
+          <mxGeometry x="40" y="50" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-3" value="감염서버" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-2">
+          <mxGeometry x="54" y="70" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-7" value="" style="image;html=1;image=img/lib/clip_art/computers/Virus_128x128.png" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-2">
+          <mxGeometry x="84" y="91.5" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-9" value="GuardDuty&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.guardduty;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-8">
+          <mxGeometry x="20" y="140" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0XP3TcfL1CMbdTPyha4J-8" source="0XP3TcfL1CMbdTPyha4J-9" target="0XP3TcfL1CMbdTPyha4J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-14" value="4. 서버 파일 악성코드 전수검사" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XP3TcfL1CMbdTPyha4J-13">
+          <mxGeometry x="-0.4245" y="-5" relative="1" as="geometry">
+            <mxPoint x="27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-25" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-8">
+          <mxGeometry x="271" y="-22" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0XP3TcfL1CMbdTPyha4J-16" target="0XP3TcfL1CMbdTPyha4J-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-34" value="1. 악성코드 다운로드" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XP3TcfL1CMbdTPyha4J-30">
+          <mxGeometry x="-0.7833" relative="1" as="geometry">
+            <mxPoint x="7" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-16" value="github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-20" value="C&amp;amp;C Server" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-23">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Hacker-128.png" vertex="1" parent="0XP3TcfL1CMbdTPyha4J-23">
+          <mxGeometry x="5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0XP3TcfL1CMbdTPyha4J-3" target="0XP3TcfL1CMbdTPyha4J-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-35" value="2. 리버스 쉘 생성시도" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XP3TcfL1CMbdTPyha4J-33">
+          <mxGeometry x="0.7602" relative="1" as="geometry">
+            <mxPoint x="8" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-36" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.authenticated_user;" vertex="1" parent="1">
+          <mxGeometry x="84" y="650" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0XP3TcfL1CMbdTPyha4J-36" target="0XP3TcfL1CMbdTPyha4J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-38" value="5. 악성파일 확인 및 삭제" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XP3TcfL1CMbdTPyha4J-37">
+          <mxGeometry x="-0.0584" y="1" relative="1" as="geometry">
+            <mxPoint x="-74" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XP3TcfL1CMbdTPyha4J-28" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="91" height="57.33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
